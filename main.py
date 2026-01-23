@@ -11,11 +11,11 @@ def index():
     return render_template("index.html")
 
 @app.route("/alumnos")
-def index():
+def alumnos():
     return render_template("alumnos.html")
 
 @app.route("/usuarios")
-def index():
+def usuarios():
     return render_template("usuarios.html")
 
 if __name__ == '__main__':
